@@ -6,7 +6,7 @@
 }
 html{
     scroll-behavior: smooth; 
-background-color: #f7f3f3;
+    background-color: #fffafa;
 }
 body{
     font-family: 'Open Sans', sans-serif;
@@ -569,6 +569,7 @@ color: var(--scand-color);
 @media (max-width: 767px) {
     .stats .container .box {
     flex-basis: 100%;
+    padding:20px 50px;
     }
     }
 @media (min-width: 768px) {
@@ -589,7 +590,7 @@ color: var(--scand-color);
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    margin: 0 auto 30px;
+    margin: 0 auto 10px;
     }
 .stats .container .box .number {
     font-size: 50px;
@@ -726,15 +727,15 @@ background-size: cover;
     height: 100%;
     background-color: rgb(0 0 0 / 40%);
     }
-.quote .cntainer{
+.quote .container{
     position: relative;
 } 
 .quote q {
-    position: relative;
     font-size: 28px;
     display: block;
     margin-bottom: 20px;
 }
+
 /*End Quote Section*/
 /*Start Pricing Section*/
 .pricing .container .plans {
@@ -744,7 +745,7 @@ background-size: cover;
 }
 .pricing .container .plans .plan {
     text-align: center;
-    background-color: #ece4e4;
+    background-color: #f8f4f4;
 }
 .pricing .container .plans .plan .head{
     padding: 30px 20px;
@@ -862,7 +863,7 @@ background-size: cover;
     transform: translateY(-50%);
     left: 25px;
     }
-    .subscribe form input[type="email"] {
+.subscribe form input[type="email"] {
     border: 1px solid white;
     border-right: none;
     background: none;
@@ -870,7 +871,7 @@ background-size: cover;
     caret-color: var(--main-color);
     width: calc(100% - 130px);
     }
-    .subscribe form input[type="submit"] {
+.subscribe form input[type="submit"] {
     width: 130px;
     background-color: var(--main-color);
     color: white;
@@ -879,22 +880,22 @@ background-size: cover;
     border-left: none;
     text-transform: uppercase;
     }
-    .subscribe form input[type="email"]:focus,
-    .subscribe form input[type="submit"]:focus {
+.subscribe form input[type="email"]:focus,
+.subscribe form input[type="submit"]:focus {
     outline: none;
     }
-    .subscribe form ::placeholder {
+.subscribe form ::placeholder {
     color: white;
     }
-    .subscribe p {
+.subscribe p {
     line-height: 2;
-    margin-left: 50px;
+    padding: 0 10px ;
     }
 /*End Subscribe  Section*/
 /*Start Contact Section*/
 .contact  .content {
- display: flex;
- justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 .contact  .content form {
     flex-basis: 70%;
@@ -930,6 +931,12 @@ background-size: cover;
     .contact .content .info {
       order: -1;
       text-align: center;
+    }
+    .contact  .content {
+    flex-direction: column;
+    }
+    .main-heading p {
+        margin: 0 auto 40px;
     }
   }
   .contact .content .info h4 {
