@@ -868,7 +868,7 @@ background-size: cover;
     border: 1px solid white;
     border-right: none;
     background: none;
-    padding: 20px 20px 20px 60px;
+    padding: 20px 10px 20px 60px;
     caret-color: var(--main-color);
     width: calc(100% - 100px);
     }
