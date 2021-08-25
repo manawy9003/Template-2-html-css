@@ -407,7 +407,7 @@ header .container .form i{
     justify-content: center;
 }
 .portfolio .shuffle li{
-    padding: 10px 20px;
+    padding: 10px 12px
 }
 .portfolio .shuffle li.active{
     color: white;
