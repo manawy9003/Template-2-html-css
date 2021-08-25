@@ -569,7 +569,7 @@ color: var(--scand-color);
 @media (max-width: 767px) {
     .stats .container .box {
     flex-basis: 100%;
-    padding:20px 50px;
+    padding: 10px 20px;
     }
     }
 @media (min-width: 768px) {
@@ -583,8 +583,8 @@ color: var(--scand-color);
     }
     }
 .stats .container .box i {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     display: flex;
     background-color: black;
     justify-content: center;
@@ -593,9 +593,9 @@ color: var(--scand-color);
     margin: 0 auto 10px;
     }
 .stats .container .box .number {
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bold;
-    margin: 0 0 20px;
+    margin: 0 0 10px;
     }
 .stats .container .box p {
     font-size: 16px;
